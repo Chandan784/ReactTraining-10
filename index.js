@@ -194,3 +194,37 @@
 // }
 
 // fun2(fun1)
+
+//string
+
+// let fullName = "akash";
+
+// console.log(typeof fullName);
+
+// // let x = 10;
+// // let y = "10";
+
+// // console.log(x != y);
+
+// console.log(fullName[1]);
+
+// let x = 10;
+// let y = "10";
+// y = Number(y);
+// console.log(x + y);
+
+// let x = 10;
+
+// let name = "akash";
+
+// console.log(`my name is ${name}`);
+
+let fullName = " chandan ";
+
+// console.log(fullName.split("a"));
+console.log(fullName.length);
+let newString = fullName.trim();
+console.log(newString.length);
+
+console.log(fullName.charAt(2));
+console.log(fullName.indexOf("a"));
