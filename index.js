@@ -219,12 +219,97 @@
 
 // console.log(`my name is ${name}`);
 
-let fullName = " chandan ";
+// let fullName = " chandan ";
 
-// console.log(fullName.split("a"));
-console.log(fullName.length);
-let newString = fullName.trim();
-console.log(newString.length);
+// // console.log(fullName.split("a"));
+// console.log(fullName.length);
+// let newString = fullName.trim();
+// console.log(newString.length);
 
-console.log(fullName.charAt(2));
-console.log(fullName.indexOf("a"));
+// console.log(fullName.charAt(2));
+// console.log(fullName.indexOf("a"));
+
+//array
+
+// let numbers = [2, 4, 6, 7, 8, 9];
+
+// console.log(numbers.length - 1);
+
+// let students = ["akash", "vikash", "chandan"];
+
+// console.log(numbers[numbers.length - 1]);
+
+// console.log(students[2]);
+
+// console.log(numbers);
+
+//set data to array by index
+// numbers[1] = 8;
+
+// console.log(numbers);
+
+// let nums = [1, 4, 6, 7];
+// nums.push(10);
+
+// console.log(nums);
+
+// nums.pop();
+
+// console.log(nums);
+
+// nums.shift();
+// console.log(nums);
+
+// nums.unshift(11);
+// console.log(nums);
+
+// let students = ["chandan", "ramesh", "akash"];
+
+// for (let student of students) {
+//   console.log(student);
+// }
+
+// for (let index in students) {
+//   //   console.log(index);
+//   console.log(students[index]);
+// }
+
+// let numbers = [2, 4, 65, 7, 8];
+
+// let newaaray = numbers.slice(4);
+
+// console.log(newaaray);
+
+// console.log(numbers);
+
+// let studentsAge = [20, 24, 30, 44];
+
+// let result = studentsAge.map((element, index) => {
+//   return element;
+// });
+
+// // console.log(result);
+
+// let scores = [100, 200, 400, 300, 50, 500];
+
+// let results = scores.filter((e) => {
+//   return e > 300;
+// });
+
+// console.log(results);
+
+//array destrcture
+
+// let marks = [200, 440, 300];
+
+// let mark1 = marks[0];
+// console.log(mark1);
+
+// let mark2 = marks[1];
+// let mark3 = marks[2];
+
+// let [mark1, , mark3] = marks;
+
+// console.log(mark3);
+
+let students = ["cahndan", "akash", "vikash"];
