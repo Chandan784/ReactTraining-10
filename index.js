@@ -312,4 +312,77 @@
 
 // console.log(mark3);
 
-let students = ["cahndan", "akash", "vikash"];
+// let students = ["cahndan", "akash", "vikash"];
+
+// //object
+
+// let student1 = {
+//   name: "akash",
+//   age: 24,
+//   roll: 100,
+// };
+
+// let productA = {
+//   title: "iphone",
+//   description: "this is a product",
+//   price: 5000,
+// };
+
+// let productB = {
+//   title: "samsung",
+//   description: "this is a product",
+//   price: 8000,
+// };
+//get the data
+// console.log(productB.title);
+//set the data
+// productB.title = "xiomi";
+
+// console.log(productB);
+//computed properties
+// let name = "x";
+// let student = {
+//   [name]: "chandan",
+//   age: 25,
+// };
+// console.log(student[name]);
+
+// object destructure
+
+// let product = {
+//   title: "computer",
+//   features: ["good camera", "8gb ram", "256gb sorage"],
+//   price: 3000,
+// };
+
+// let x = product.title;
+// let price = product.price;
+// console.log(x, price);
+
+// let { title:xyz } = product;
+
+// console.log(xyz);
+
+let products = [
+  {
+    title: "computer",
+    features: ["good camera", "8gb ram", "256gb sorage"],
+    price: 3000,
+  },
+  {
+    title: "pc",
+    features: ["good camera", "8gb ram"],
+    price: 6000,
+  },
+  {
+    title: "phone",
+    features: ["8gb ram", "256gb sorage"],
+    price: 10000,
+  },
+];
+
+let result = products.filter((product) => {
+  return product.price > 5000;
+});
+
+console.log(result);
