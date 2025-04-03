@@ -363,26 +363,26 @@
 
 // console.log(xyz);
 
-let products = [
-  {
-    title: "computer",
-    features: ["good camera", "8gb ram", "256gb sorage"],
-    price: 3000,
-  },
-  {
-    title: "pc",
-    features: ["good camera", "8gb ram"],
-    price: 6000,
-  },
-  {
-    title: "phone",
-    features: ["8gb ram", "256gb sorage"],
-    price: 10000,
-  },
-];
+// let products = [
+//   {
+//     title: "computer",
+//     features: ["good camera", "8gb ram", "256gb sorage"],
+//     price: 3000,
+//   },
+//   {
+//     title: "pc",
+//     features: ["good camera", "8gb ram"],
+//     price: 6000,
+//   },
+//   {
+//     title: "phone",
+//     features: ["8gb ram", "256gb sorage"],
+//     price: 10000,
+//   },
+// ];
 
-let result = products.filter((product) => {
-  return product.price > 5000;
-});
+// let result = products.filter((product,index) => {
+//   return product.price > 5000;
+// });
 
-console.log(result);
+// console.log(result);
