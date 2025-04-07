@@ -10,18 +10,18 @@
 //     console.log(error);
 //   });
 
-console.log("hii");
+// console.log("hii");
 
-async function getUserData() {
-  let response = await fetch("https://jsonplaceholder.typicode.com/users");
+// async function getUserData() {
+//   let response = await fetch("https://jsonplaceholder.typicode.com/users");
 
-  let data = await response.json();
-  console.log(data);
-}
+//   let data = await response.json();
+//   console.log(data);
+// }
 
-getUserData();
+// getUserData();
 
-console.log("hlw");
+// console.log("hlw");
 
 // let heading = document.querySelector("#heading");
 
