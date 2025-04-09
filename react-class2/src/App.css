@@ -1,0 +1,12 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  background-color: skyblue;
+  padding: 20px 12px;
+}
+
+.parent .right a {
+  text-decoration: none;
+  padding: 10px;
+}

@@ -1,0 +1,11 @@
+.parent {
+  height: 80vh;
+  background-color: blue;
+
+  color: white;
+}
+
+.card {
+  background-color: brown;
+  text-align: center;
+}
