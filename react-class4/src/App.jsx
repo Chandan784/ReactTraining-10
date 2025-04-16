@@ -3,11 +3,12 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { useState } from "react";
 
-function App() {
+function App(e) {
   let [number, setNumber] = useState(0);
   function increment() {
     setNumber(number + 1);
   }
+  console.log(number);
 
   function decrement() {
     setNumber(number - 1);
