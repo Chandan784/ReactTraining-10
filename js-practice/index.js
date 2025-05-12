@@ -199,21 +199,21 @@
 
 //this is a boy
 
-function captilizeFirstLetter(sentence) {
-  let splitWordArray = sentence.split(" ");
-  console.log(splitWordArray);
+// function captilizeFirstLetter(sentence) {
+//   let splitWordArray = sentence.split(" ");
+//   console.log(splitWordArray);
 
-  let newStentence = ""; //This Is A Boy
+//   let newStentence = ""; //This Is A Boy
 
-  splitWordArray.forEach((word) => {
-    let newWord = word[0].toUpperCase(); //T, I, B
-    for (let i = 1; i < word.length; i++) {
-      newWord = newWord + word[i];
-    }
-    newStentence = newStentence + newWord + " ";
-  });
+//   splitWordArray.forEach((word) => {
+//     let newWord = word[0].toUpperCase(); //T, I, B
+//     for (let i = 1; i < word.length; i++) {
+//       newWord = newWord + word[i];
+//     }
+//     newStentence = newStentence + newWord + " ";
+//   });
 
-  return newStentence;
-}
+//   return newStentence;
+// }
 
-captilizeFirstLetter("this is a boy");
+// captilizeFirstLetter("this is a boy");
