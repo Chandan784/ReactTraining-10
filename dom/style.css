@@ -1,0 +1,16 @@
+.box2 {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+}
+
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+}
+
+.x {
+  border-radius: 50%;
+  background-color: yellow;
+}
