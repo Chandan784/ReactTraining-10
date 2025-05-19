@@ -75,3 +75,24 @@
 // }
 
 //hoisting
+
+// let number = [1,2,3]
+
+// // let y = number[0]
+
+// let [,y,] = number
+// let
+
+// console.log(y);
+
+// function sendNames() {
+//   return ["chandan", "akash"];
+// }
+
+// let [studen1, student2] = sendNames();
+
+// console.log(studen1);
+
+// console.log(x);
+
+// let x = 2;
